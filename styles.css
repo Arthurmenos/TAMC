@@ -1,0 +1,33 @@
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
