@@ -106,6 +106,8 @@ function medal1() {
 
   let p5 = document.querySelector('#PLAYER5').value;
   let imgp5 = document.querySelector('imgp5')
+
+  calcularMedia()
 }
 
 function medal2() {
@@ -200,6 +202,8 @@ function medal2() {
 
   let p5 = document.querySelector('#PLAYER5').value;
   let imgp5 = document.querySelector('imgp5')
+
+  calcularMedia()
 }
 
 function medal3() {
@@ -294,6 +298,8 @@ function medal3() {
 
   let p5 = document.querySelector('#PLAYER5').value;
   let imgp5 = document.querySelector('imgp5')
+
+  calcularMedia()
 }
 
 function medal4() {
@@ -388,6 +394,8 @@ function medal4() {
 
   let p5 = document.querySelector('#PLAYER5').value;
   let imgp5 = document.querySelector('imgp5')
+
+  calcularMedia()
 }
 
 function medal5() {
@@ -482,5 +490,7 @@ function medal5() {
 
   let p5 = document.querySelector('#PLAYER5').value;
   let imgp5 = document.querySelector('imgp5')
+
+  calcularMedia()
 }
 
