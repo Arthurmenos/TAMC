@@ -1,32 +1,104 @@
-  h1 {
-    text-align: center;
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--azul1);
+  height: 100vh;
+}
 
-  img {
-    max-width: 100px;
-    max-height: 100px;
-  }
+header {
+  padding: 15px 15px;
+}
 
-  #options {
-    display: flex;
-  }
+h1 {
+  text-align: center;
+  color: var(--branco1);
+  font-family: var(--fontTitle1);
+}
+
+#rankingForm {
+  display: flex;
+  justify-content: center;
+
+  height: auto;
+  width: 75%;
+
+  margin: auto;
+
+  background-color: white;
+  color: black;
+}
+
+.player {
+  margin: 20px;
+}
+
+.player p {
+  color: black;
+  text-align: center;
+}
+
+.player img {
+  max-width: 15vh;
+  max-height: 15vh;
+
+  margin: auto;
+}
+
+
+#resultado {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+p {
+  color: var(--branco1);
+  font-family: var(--fontTitle2);
+  font-weight: 100;
+}
+
+#avgConfirm {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
   
-  button {
-    display: block;
-    margin: 15px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #resultado {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-  }
-  
+  height: auto;
+  width: 500px;
+
+  margin: 20px auto;
+}
+
+#avgConfirm #avgmmr {
+  padding: 15px 5px;
+  color: black;
+  text-align: center;
+}
+
+#avgConfirm p {
+  color: black;
+  text-align: center;
+}
+
+#divContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#div1, #div2 {
+  padding: 15px 10px;
+}
+
+footer {
+  margin: 15px auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #b3b3b3;
+}
