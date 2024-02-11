@@ -6,18 +6,16 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="vars.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
-  <title>TAMC | Liga RDC</title>
+  <title>Calculadora de Média DOTA 2</title>
 </head>
 
 <body>
   <header>
-    <a href="https://www.ligardc.com/" rel="external" target="_blank"><img id="RDC" src="imgs/RDC.png" alt="RDC"></a>
-    <img src="imgs/Line.png" alt="">
-    <img id="COPINHA" src="imgs/COPINHA.png" alt="COPINHA">
+    <h1>Calculadora de Média DOTA 2</h1>
   </header>
                                                           
   <main>
+
     <section id="rankingForm">
       <div id="player1div" class="player">
         <p id="player1MMR">MMR: ?</p>
@@ -67,9 +65,8 @@
             <option value="8000">IMMORTAL 8K MMR</option>
           </select>
         </label>
-        <p id="player1warning" class="warning">❔DIV2</p>
+        
       </div>
-
       <div id="player2div" class="player">
         <p id="player2MMR">MMR: ?</p>
         <img src="imgs/0.webp" alt="rank" id="imgp2">
@@ -118,9 +115,7 @@
             <option value="8000">IMMORTAL 8K MMR</option>
           </select>
         </label>
-        <p id="player2warning" class="warning">❔DIV2</p>
       </div>
-
       <div id="player3div" class="player">
         <p id="player3MMR">MMR: ?</p>
         <img src="imgs/0.webp" alt="rank"  id="imgp3">
@@ -169,9 +164,7 @@
             <option value="8000">IMMORTAL 8K MMR</option>
           </select>
         </label>
-        <p id="player3warning" class="warning">❔DIV2</p>
       </div>
-
       <div id="player4div" class="player">
         <p id="player4MMR">MMR: ?</p>
         <img src="imgs/0.webp" alt="rank" id="imgp4">
@@ -220,9 +213,7 @@
             <option value="8000">IMMORTAL 8K MMR</option>
           </select>
         </label>
-        <p id="player4warning" class="warning">❔DIV2</p>
       </div>
-      
       <div id="player5div" class="player">
         <p id="player5MMR">MMR: ?</p>
         <img src="imgs/0.webp" alt="rank" id="imgp5">
@@ -271,7 +262,6 @@
             <option value="8000">IMMORTAL 8K MMR</option>
           </select>
         </label>
-        <p id="player5warning" class="warning">❔DIV2</p>
       </div>
     </section>
 
@@ -288,16 +278,10 @@
 
         <div id="divisions">
           <div id="div1">
-            <p id="div1text" class="textTitle">DIVISÃO 1</p>
-            <p class="textsubtitle">Max 6k AVG</p>
+            <p id="div1text">DIVISÃO 1</p>
           </div>
           <div id="div2">
-            <p id="div2text" class="textTitle">DIVISÃO 2</p>
-            <p class="textsubtitle">
-              Max 3.5k AVG
-              <br>
-              Max Rank Ancient 5
-            </p>
+            <p id="div2text">DIVISÃO 2</p>
           </div>
         </div>
       </div>
@@ -306,7 +290,7 @@
   </main> 
                   
   <footer>
-    <p>Feito por <a href="https://github.com/arthurmenos" target="_blank" rel="external">@Arthurmenos</a> para a Liga RDC. v0.1</p>
+    <p>Feito por <a href="https://github.com/arthurmenos" target="_blank" rel="external">@Arthurmenos</a></p>
   </footer>
 
 </body>
