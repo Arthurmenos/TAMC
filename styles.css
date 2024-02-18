@@ -1,7 +1,8 @@
 /* BODY */
 
-html {
+html, body {
   height: 100%;
+  min-width: 480px;
 }
 
 body {
@@ -10,11 +11,14 @@ body {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
-  background: no-repeat url(imgs/bc-vs.png);
+  
+  background-image: url(imgs/bc-vs.png), url(imgs/bc-dawn.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, top right; 
+  background-attachment: fixed, fixed; 
+  background-size: contain;
   background-color: var(--roxo2);
   
-
   height: 100%;
   margin: auto;
 }
@@ -70,8 +74,18 @@ main {
   width: 100%;
   margin: 0vh auto 0vh auto;
 
-  background-color: var(--roxo1);
+  background-color: var(--roxotransparent);
   color: black;
+}
+
+.rankingSelect {
+  background-color: white;
+
+  text-align: center;
+  
+
+  font-family: var(--fontTitle2);
+  font-weight: 800;
 }
 
 /* PLAYER */
@@ -109,7 +123,7 @@ main {
   flex-direction: column;
   background-color: var(--roxo1);
   
-  height: 25vh;
+  height: auto;
   width: 60vh;
 
   margin: 20px auto;
@@ -138,10 +152,9 @@ img#imgavg {
 
 .textsubtitle {
   text-align: center;
-  
   font-size: 0.8em;
-  color: var(--cinza6);
-  font-family: var(--fontTitle1);
+  color: var(--cinza5);
+  font-family: var(--fontText1);
   font-weight: 100;
 }
 
@@ -162,6 +175,7 @@ img#imgavg {
 footer {
   margin: 3vh auto;
   margin-top: auto;
+  padding-bottom: 1vh;
 }
 
 footer a {
@@ -171,6 +185,8 @@ footer a {
 
 footer p {
   color: var(--cinza6);
+  font-weight: 900;
+  font-family: var(--fontTitle2);
 }
 
 footer a:hover {
