@@ -1,0 +1,170 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* BODY */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: var(--azul1);
+  padding: 2vw;
+}
+
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  max-width: 1216px;
+
+  margin: 2vw auto 4.5vw auto;
+}
+
+.header-buttons {
+  height: 3vw;
+}
+
+.header-buttons:hover {
+  transform: scale(1.2);
+  transition-duration: 500ms;
+}
+
+.header-buttons:not(:hover) {
+  transform: scale(1);
+  transition-duration: 250ms;
+}
+
+
+/* MAIN */
+
+main {
+  height: auto;
+  width: 90%;
+  max-width: 1216px;
+}
+
+#rankingForm {
+  margin-top: 4vw;
+  margin-bottom: 8vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PLAYER */
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 28vw;
+  width: 16vw;
+
+  margin-right: 1vw;
+  background-color: var(--azul3);
+}
+
+.player > p {
+  font-family: var(--fontTitle2);
+  font-size: 1.8vw;
+}
+
+.player > .playersmmr-rank {
+  color: var(--cinza6);
+  margin-bottom: 1vw;
+}
+
+.player > .playersmmr-text {
+  font-size: 1.5vw;
+  color: var(--amarelo1);
+  margin-bottom: 1.8vw;
+}
+
+.player img {
+  height: 10vw;
+  margin: 2.5vw 4vw 4vw;
+}
+
+.rankingSelect {
+  border-color: var(--cinza6);
+  background-color: var(--azul3);
+  color: var(--cinza6);
+
+  width: 10vw;
+  height: 3vw;
+
+  font-size: 1vw;
+  text-align: center;
+  font-family: var(--fontTitle2);
+  font-weight: 800;
+}
+
+
+/* avgContainer */
+
+#avgContainer {
+  width: 100%;
+  max-width: 1216px;
+
+  height: 17.6%;
+
+  background-color: var(--azul3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#avgContainer__average-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#avgContainer__average {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#imgavg {
+  height: 13.67vh;
+  margin: 1vh 1vh;
+
+  margin-right: 5vw;
+}
+
+#avgContainer__text > .avgTextWhite {
+  margin-left: 5vw;
+}
+
+.avgTextWhite {
+  font-size: 1.45vw;
+  font-family: var(--fontTitle1);
+  color: var(--cinza7);
+}
+
+#avgmmr {
+  font-size: 1.0vw;
+  color: var(--amarelo1);
+  font-family: var(--fontTitle2);
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  width: 83.1%;
+}
+

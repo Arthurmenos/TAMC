@@ -1,0 +1,21 @@
+@media (max-width: 680px) {
+header > a > #RDC {
+    width: auto;
+    height: 6vh;
+
+    margin: 0vh 5vh;
+    }
+
+.player {
+    padding: 1vh 1vh;
+    padding-bottom: 2vh;
+    margin: 1vh 1vh;
+    }
+     
+.player img {
+    width: 17vh;
+    height: 17vh;
+
+    margin: 1vh 1vh;    
+    }
+}

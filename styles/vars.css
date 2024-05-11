@@ -1,21 +1,22 @@
 @font-face {
     font-family: 'NeueMachinaBlack';
-    src: url('fonts/NeueMachina-Black.ttf') format('truetype');
+    src: url('../fonts/NeueMachina-Black.ttf') format('truetype');
   }
 
 @font-face {
     font-family: 'NeueMachinaBold';
-    src: url('fonts/NeueMachina-Bold.ttf') format('truetype');
+    src: url('../fonts/NeueMachina-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'FujiLight';
-  src: url('fonts/Fuji-Light.otf') format('truetype');
+  src: url('../fonts/Fuji-Light.otf') format('truetype');
 }  
 
 :root {
     --azul1: #4B01E9;
     --azul2: #3E01C1;
+    --azul3: #4401D5;
 
     --amarelo1: #EBFE40;
     --amarelo2: #D7EE01;
@@ -36,6 +37,7 @@
     --cinza4: #A1A1A1;
     --cinza5: #CFCFCF;
     --cinza6: #FBFBFB;
+    --cinza7: #FFF;
 
     --fontTitle1:'NeueMachinaBlack';
     --fontTitle2:'NeueMachinaBold';
