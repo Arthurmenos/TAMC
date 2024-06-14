@@ -5,11 +5,13 @@ const playersMMRs = document.querySelectorAll(`.playersmmr`)
 const MMRs = document.querySelectorAll(".rankingSelect");
 
 function getPlayerRankText(object, value) {
-  for(let text in ranks) {
-    if(ranks[text] == value && ranks.hasOwnProperty(text)) {
-      return text;
+  let closestRank = "UNRANKED";
+  for (let rank in ranks) {
+    if (ranks[rank].value <= value) {
+      closestRank = rank;
     }
   }
+  return closestRank;
 }
 
 // Cria um looping que passa por todos os selection, e com base no valor de cada um, chama as funções de changeImage e calculateAverage

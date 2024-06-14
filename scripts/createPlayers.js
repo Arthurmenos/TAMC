@@ -3,10 +3,10 @@ for (i = 0; i < 5; i++) {
 
     div.innerHTML = 
     `
-    <img src="imgs/0.webp" alt="rank" id="imgplayer${i}">
+    <img src="imgs/0.webp" alt="rank" id="imgplayer${i}" class="playerimg">
     <p id="player${i}rank" class="playersmmr-rank">UNRANKED</p>
-    <p id="player${i}MMR" class="playersmmr-text">MMR</p>
-    <label for="player${i}" class="playersmmr">
+    <p id="player${i}MMR" class="playersmmr-text">SEM MMR</p>
+    <label for="player${i}select" class="playersmmr" id="player${i}">
         <select id="player${i}select" class="rankingSelect">
             <option value="0" selected>UNRANKED</option>
             <option value="10">HERALD 1</option>
